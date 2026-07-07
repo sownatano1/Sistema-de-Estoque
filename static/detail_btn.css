@@ -1,0 +1,30 @@
+.menu_detalhe summary{
+    display: block;
+}
+.menu_detalhe{
+    position: fixed;
+    margin-top: -60px;
+    padding: 10px;
+}
+
+.menu_detalhe form button{
+    padding: 5px;
+    margin-top: 10px;
+    display: block;
+    border: 2px, black, solid;
+    background-color: white;
+    width: 6rem;
+}
+
+.menu_detalhe form button:hover, .menu_detalhe form button:focus{
+    border: 3px, black, solid;
+    background-color: rgb(206, 206, 206);
+}
+
+.detail_img{
+    background-color: transparent;
+}
+
+.detail_img:hover{
+    transform: scale(1.05);
+}

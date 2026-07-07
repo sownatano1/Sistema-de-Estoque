@@ -1,14 +1,14 @@
-from flask import Flask
+from flask import Flask, render_template, url_for
 
 app = Flask(__name__)
 
 @app.route("/")
-def Pagina():
-    return "<h1>Minha primeira página com o Flask</h1>"
+def Dashboard():
+    return render_template('index.html')
 
-@app.route("/secret")
-def Secret():
-    return "Essa página é secreta!"
+@app.route("/produtos")
+def Produtos():
+    return render_template('produtos.html')
 
 if __name__ == "__main__":
     app.run(debug=True)

@@ -1,0 +1,19 @@
+h1 {text-align: center;}
+
+table{
+    justify-self: center;
+    padding: 10px;
+    background-color: rgb(182, 182, 182);
+}
+
+th{
+    padding-inline: 20px;
+    padding-block: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.list_detail th{background-color: rgb(114, 114, 114);}
+
+caption{font-size: large; font-weight: bolder; margin: 5px;}
+
+.info_btn{border-radius: 0; border-color: transparent; background-color: transparent; text-decoration: underline;}

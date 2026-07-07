@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard</title>
+    <title>Produtos</title>
+    <link rel="stylesheet" href="../static/produtos.css">
     <link rel="stylesheet" href="../static/detail_btn.css">
-    <link rel="stylesheet" href="{{ url_for('static', filename='detail_btn.css') }}">
-</head> 
+</head>
 <body>
     <header>
-        <h1>Sistema de Estoque</h1> 
+        <h1 class="title">Produtos</h1>
     </header>
 
     <nav>
@@ -47,11 +47,30 @@
     </nav>
 
     <main>
-        <h2>Dashboard</h2>
+        <section>
+            <table>
+               <tr class="list_detail">
+                    <th>Id</th> <th>Nome do Produto</th> <th>Categoria</th> <th>Quantidade</th> <th>Preço</th> <th>Informações</th>
+               </tr> 
+               <tr>
+                    <th>01</th>
+                    <th>Micro-ondas</th>
+                    <th>Eletrônico</th>
+                    <th>16</th>
+                    <th>189.99$</th>
+                    <th><button class="info_btn">Clique Aqui</button></th>
+               </tr>
+               <tr>
+                    <th>02</th>
+                    <th>Cadeira de plástico</th>
+                    <th>Objeto</th>
+                    <th>43</th>
+                    <th>12.99$</th>
+                    <th><button class="info_btn">Clique Aqui</button></th>
+               </tr>
+               <caption>Lista de Produtos</caption>
+            </table>
+        </section>
     </main>
-
-    <footer>
-
-    </footer>
 </body>
 </html>
