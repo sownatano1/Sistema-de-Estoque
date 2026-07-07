@@ -17,3 +17,22 @@ th{
 caption{font-size: large; font-weight: bolder; margin: 5px;}
 
 .info_btn{border-radius: 0; border-color: transparent; background-color: transparent; text-decoration: underline;}
+
+.addBtn{
+    width: 60px;
+    height: 60px;
+    background-image: url(content/add.png);
+    background-size: contain;
+    border-style: none;
+    background-color: transparent;
+    color: transparent;
+
+    position: fixed;
+    display: flex;
+    align-self: flex-end;
+    justify-self: flex-end;
+    margin-right: 20px;
+    margin-bottom: -10px;
+}
+
+.addBtn:hover{transform: scale(1.05);}

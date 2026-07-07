@@ -1,6 +1,7 @@
 .menu_detalhe summary{
     display: block;
 }
+
 .menu_detalhe{
     position: fixed;
     margin-top: -60px;
